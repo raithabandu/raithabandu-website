@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaithaBandu Enterprises | Dairy Rubber Mats</title>
+
+    <meta name="description" content="Premium Dairy Rubber Mats Manufacturer & Wholesale Supplier in Karnataka.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<h2>RaithaBandu Enterprises</h2>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#products">Products</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Premium Dairy Rubber Mats</h1>
+
+<p>Wholesale Supplier | Heavy Duty | Interlocking Mats</p>
+
+<a class="btn" href="#contact">Contact Us</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="container">
+
+<h2>About Us</h2>
+
+<p>
+
+RaithaBandu Enterprises is a trusted wholesale supplier of premium dairy rubber mats designed for cattle sheds, dairy farms and livestock housing.
+
+We focus on durable, anti-slip flooring solutions that improve hygiene and animal comfort.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="products">
+
+<div class="container">
+
+<h2>Product Specifications</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Heavy Duty Dairy Rubber Mat</h3>
+
+<ul>
+
+<li>Size : 6 x 4 Feet</li>
+
+<li>Thickness : 17 mm</li>
+
+<li>Weight : 36–40 Kg</li>
+
+<li>Diamond Pattern Surface</li>
+
+<li>Grooved Bottom</li>
+
+<li>2 Side Interlocking</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="why">
+
+<div class="container">
+
+<h2>Why Choose Us?</h2>
+
+<div class="features">
+
+<div>✔ Premium Quality</div>
+
+<div>✔ Wholesale Pricing</div>
+
+<div>✔ Bulk Orders</div>
+
+<div>✔ Fast Delivery</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p><strong>Phone:</strong> 9353736691 / 6363132028</p>
+
+<p><strong>Email:</strong> anujithgowda2@gmail.com</p>
+
+<p><strong>GST:</strong> 29CGFPJ2915Q1Z</p>
+
+<p><strong>Address:</strong><br>
+
+Near Railway Bridge,<br>
+
+Next to Achalaparameshwari Timbers,<br>
+
+Mysore Road,<br>
+
+Channarayapatna – 573116
+
+</p>
+
+<a class="whatsapp"
+
+href="https://wa.me/919353736691"
+
+target="_blank">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 RaithaBandu Enterprises. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
