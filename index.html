@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RaithaBandu Enterprises | Premium Dairy Rubber Flooring</title>
+
+    <meta name="description"
+          content="RaithaBandu Enterprises - Premium Dairy Rubber Flooring Solutions for dairy farms, cattle sheds, gaushalas and livestock housing.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #183b24;
+            background: #ffffff;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5eee7;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            min-height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .brand {
+            font-size: 22px;
+            font-weight: 800;
+            color: #176b35;
+        }
+
+        .brand span {
+            display: block;
+            font-size: 11px;
+            font-weight: 500;
+            color: #718076;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            display: flex;
+            gap: 28px;
+        }
+
+        nav a {
+            color: #31553b;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #16833d;
+        }
+
+        /* HERO */
+
+        .hero {
+            background: linear-gradient(135deg, #f3faf4, #ffffff);
+            padding: 85px 0;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            align-items: center;
+            gap: 55px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e3f4e7;
+            color: #18733a;
+            padding: 7px 14px;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 5vw, 62px);
+            line-height: 1.1;
+            color: #123b20;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #18823d;
+        }
+
+        .hero p {
+            color: #5c6e62;
+            font-size: 17px;
+            max-width: 620px;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 13px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 22px;
+            border-radius: 7px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .btn-primary {
+            background: #18823d;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #11662f;
+        }
+
+        .btn-secondary {
+            border: 1px solid #18823d;
+            color: #18823d;
+            background: white;
+        }
+
+        .btn-secondary:hover {
+            background: #eef8f0;
+        }
+
+        .hero-card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px;
+            box-shadow: 0 15px 45px rgba(27, 83, 43, 0.12);
+            border: 1px solid #e3eee5;
+        }
+
+        .mat-placeholder {
+            min-height: 330px;
+            border-radius: 12px;
+            background:
+                repeating-linear-gradient(
+                    45deg,
+                    #1d2921 0px,
+                    #1d2921 12px,
+                    #26352b 12px,
+                    #26352b 24px
+                );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        .mat-placeholder div {
+            background: rgba(0,0,0,0.55);
+            padding: 18px 22px;
+            border-radius: 10px;
+        }
+
+        .mat-placeholder strong {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* SECTIONS */
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 34px;
+            color: #143e22;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #6b786f;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .about {
+            background: #ffffff;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 45px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            font-size: 27px;
+            margin-bottom: 15px;
+            color: #194d29;
+        }
+
+        .about-text p {
+            color: #647169;
+            margin-bottom: 15px;
+        }
+
+        .info-box {
+            background: #f2f8f3;
+            border-left: 4px solid #18823d;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-bottom: 8px;
+            color: #19582e;
+        }
+
+        /* PRODUCT */
+
+        .product {
+            background: #f6faf7;
+        }
+
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .spec {
+            background: white;
+            padding: 25px 15px;
+            text-align: center;
+            border-radius: 12px;
+            border: 1px solid #e2ece4;
+        }
+
+        .spec strong {
+            display: block;
+            font-size: 22px;
+            color: #17813c;
+            margin-bottom: 5px;
+        }
+
+        .spec span {
+            color: #667269;
+            font-size: 13px;
+        }
+
+        /* BENEFITS */
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .benefit {
+            padding: 28px;
+            border: 1px solid #e5ece6;
+            border-radius: 12px;
+            background: white;
+        }
+
+        .benefit-number {
+            font-size: 13px;
+            font-weight: 700;
+            color: #18823d;
+            margin-bottom: 10px;
+        }
+
+        .benefit h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .benefit p {
+            font-size: 14px;
+            color: #68746c;
+        }
+
+        /* APPLICATIONS */
+
+        .applications {
+            background: #f5faf6;
+        }
+
+        .application-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .application {
+            background: white;
+            padding: 20px 12px;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #e1ebe3;
+        }
+
+        /* DEALER */
+
+        .dealer-box {
+            background: #173d24;
+            color: white;
+            border-radius: 18px;
+            padding: 55px;
+            text-align: center;
+        }
+
+        .dealer-box h2 {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .dealer-box p {
+            color: #d5e5d9;
+            max-width: 700px;
+            margin: 0 auto 25px;
+        }
+
+        .dealer-points {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .dealer-points span {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 13px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .dealer-button {
+            background: white;
+            color: #176b35;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background: #ffffff;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .contact-card {
+            background: #f5faf6;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 18px;
+            color: #174d28;
+        }
+
+        .contact-item {
+            margin-bottom: 13px;
+            color: #5e6b63;
+            font-size: 14px;
+        }
+
+        .contact-item strong {
+            color: #254b31;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #102c19;
+            color: #d9e7dc;
+            text-align: center;
+            padding: 28px 15px;
+            font-size: 13px;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 850px) {
+
+            nav {
+                gap: 12px;
+            }
+
+            nav a {
+                font-size: 12px;
+            }
+
+            .hero-grid,
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .spec-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .application-list {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .dealer-box {
+                padding: 35px 20px;
+            }
+        }
+
+        @media (max-width: 550px) {
+
+            .navbar {
+                flex-direction: column;
+                padding: 15px 0;
+            }
+
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero {
+                padding: 55px 0;
+            }
+
+            .spec-grid,
+            .benefits-grid,
+            .application-list {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 55px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container navbar">
+
+        <div class="brand">
+            RaithaBandu Enterprises
+            <span>Premium Dairy Rubber Flooring Solutions</span>
+        </div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div>
+
+                <div class="badge">
+                    PREMIUM DAIRY FLOORING
+                </div>
+
+                <h1>
+                    Better Flooring for
+                    <span>Better Dairy Spaces.</span>
+                </h1>
+
+                <p>
+                    Heavy-duty interlocking rubber flooring solutions
+                    designed for dairy farms, cattle sheds, gaushalas
+                    and livestock housing.
+                </p>
+
+                <div class="buttons">
+
+                    <a class="btn btn-primary"
+                       href="tel:9353736691">
+                        Call for Wholesale
+                    </a>
+
+                    <a class="btn btn-secondary"
+                       href="#contact">
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="mat-placeholder">
+
+                    <div>
+                        <strong>6 × 4 ft Dairy Rubber Mat</strong>
+                        <span>17 mm Heavy-Duty Interlocking Flooring</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>About RaithaBandu</h2>
+
+                <p>
+                    Reliable wholesale dairy rubber flooring solutions
+                    for farmers, dealers and livestock infrastructure.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <h3>Built for Dairy Applications</h3>
+
+                    <p>
+                        RaithaBandu Enterprises focuses on supplying
+                        premium heavy-duty rubber flooring for dairy
+                        farms and livestock housing.
+                    </p>
+
+                    <p>
+                        Our products are designed to provide a durable,
+                        practical and comfortable flooring surface for
+                        demanding dairy environments.
+                    </p>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <h4>Wholesale Supply</h4>
+
+                    <p>
+                        Bulk quantity availability, consistent quality,
+                        reliable supply and GST billing for dealers and
+                        commercial customers.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCT -->
+
+    <section class="product" id="product">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Product Specifications</h2>
+
+                <p>
+                    Heavy-duty rubber mats engineered for dairy flooring
+                    applications.
+                </p>
+
+            </div>
+
+
+            <div class="spec-grid">
+
+                <div class="spec">
+                    <strong>6 × 4 ft</strong>
+                    <span>Mat Size</span>
+                </div>
+
+                <div class="spec">
+                    <strong>17 mm</strong>
+                    <span>Thickness</span>
+                </div>
+
+                <div class="spec">
+                    <strong>36–40 kg</strong>
+                    <span>Approx. Weight</span>
+                </div>
+
+                <div class="spec">
+                    <strong>Interlocking</strong>
+                    <span>Design</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BENEFITS -->
+
+    <section id="benefits">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Why Choose Our Mats?</h2>
+
+                <p>
+                    Practical flooring designed around everyday dairy
+                    requirements.
+                </p>
+
+            </div>
+
+
+            <div class="benefits-grid">
+
+                <div class="benefit">
+                    <div class="benefit-number">01</div>
+                    <h3>Comfortable Surface</h3>
+                    <p>
+                        Provides a more comfortable standing surface
+                        for dairy animals.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-number">02</div>
+                    <h3>Heavy-Duty Construction</h3>
+                    <p>
+                        Strong rubber construction suitable for demanding
+                        dairy environments.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-number">03</div>
+                    <h3>Easy Installation</h3>
+                    <p>
+                        Interlocking design helps make installation
+                        straightforward.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-number">04</div>
+                    <h3>Easy Cleaning</h3>
+                    <p>
+                        Practical flooring surface that supports
+                        regular cleaning and maintenance.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-number">05</div>
+                    <h3>Interlocking Edges</h3>
+                    <p>
+                        Interlocking edges help connect mats together
+                        across larger flooring areas.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-number">06</div>
+                    <h3>Dairy-Focused</h3>
+                    <p>
+                        Designed specifically for dairy sheds and
+                        livestock housing applications.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- APPLICATIONS -->
+
+    <section class="applications">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Applications</h2>
+
+                <p>
+                    Suitable for a wide range of livestock flooring
+                    requirements.
+                </p>
+
+            </div>
+
+
+            <div class="application-list">
+
+                <div class="application">
+                    Dairy Farms
+                </div>
+
+                <div class="application">
+                    Commercial Cattle Sheds
+                </div>
+
+                <div class="application">
+                    Gaushalas
+                </div>
+
+                <div class="application">
+                    Livestock Housing
+                </div>
+
+                <div class="application">
+                    Dairy Sheds
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEALER -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="dealer-box">
+
+                <h2>Become a Dealer</h2>
+
+                <p>
+                    Partner with RaithaBandu Enterprises for reliable
+                    wholesale dairy rubber flooring supply.
+                </p>
+
+                <div class="dealer-points">
+
+                    <span>GST Billing</span>
+                    <span>Reliable Supply</span>
+                    <span>Bulk Quantity</span>
+                    <span>Consistent Quality</span>
+                    <span>Wholesale Support</span>
+
+                </div>
+
+                <a class="btn dealer-button"
+                   href="tel:9353736691">
+                    Talk to Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Contact RaithaBandu</h2>
+
+                <p>
+                    Contact us for wholesale enquiries, dealer
+                    requirements and bulk orders.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+
+                    <h3>Business Details</h3>
+
+                    <div class="contact-item">
+                        <strong>Business:</strong>
+                        RaithaBandu Enterprises
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Location:</strong>
+                        Channarayapatna – 573116
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Address:</strong>
+                        Near Railway Bridge, next to
+                        Achalaparameshwari Timbers,
+                        Mysore Road, Channarayapatna
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>GST:</strong>
+                        29CGFPJ2915Q1Z
+                    </div>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <h3>Get in Touch</h3>
+
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:9353736691">
+                            9353736691
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:6363132028">
+                            6363132028
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:anujithgowda2@gmail.com">
+                            anujithgowda2@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="buttons">
+
+                        <a class="btn btn-primary"
+                           href="https://wa.me/919353736691"
+                           target="_blank">
+                            WhatsApp Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <strong>RaithaBandu Enterprises</strong><br>
+
+    Premium Dairy Rubber Flooring Solutions<br><br>
+
+    © 2026 RaithaBandu Enterprises. All rights reserved.
+
+</footer>
+
+
+<script>
+
+    // Smooth scrolling for navigation links
+
+    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+
+        link.addEventListener('click', function(event) {
+
+            const target = document.querySelector(
+                this.getAttribute('href')
+            );
+
+            if (target) {
+
+                event.preventDefault();
+
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+            }
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
