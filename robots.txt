@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://raithabandu.github.io/raithabandu-website/sitemap.xml
