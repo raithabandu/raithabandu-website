@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1080" role="img" aria-label="Actual RaithaBandu dairy rubber mat photos"><rect width="1200" height="1080" fill="#f7f9f7"/><rect x="24" y="24" width="1152" height="500" rx="20" fill="#fff"/><image href="https://raw.githubusercontent.com/raithabandu/raithabandu-website/main/photos/dairy-mat-1.jpg?v=2" x="44" y="44" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/><rect x="24" y="556" width="1152" height="500" rx="20" fill="#fff"/><image href="https://raw.githubusercontent.com/raithabandu/raithabandu-website/main/photos/dairy-mat-2.jpg?v=2" x="44" y="576" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1080" role="img" aria-label="RaithaBandu actual dairy rubber mat photos">
+  <rect width="1200" height="1080" fill="#f7f9f7"/>
+  <rect x="24" y="24" width="1152" height="500" rx="20" fill="#fff"/>
+  <image href="photos/dairy-mat-1.jpg" x="44" y="44" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="24" y="556" width="1152" height="500" rx="20" fill="#fff"/>
+  <image href="photos/dairy-mat-2.jpg" x="44" y="576" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/>
+</svg>
