@@ -1,7 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1080" role="img" aria-label="RaithaBandu actual dairy rubber mat photos">
-  <rect width="1200" height="1080" fill="#f7f9f7"/>
-  <rect x="24" y="24" width="1152" height="500" rx="20" fill="#fff"/>
-  <image href="photos/dairy-mat-1.jpg" x="44" y="44" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/>
-  <rect x="24" y="556" width="1152" height="500" rx="20" fill="#fff"/>
-  <image href="photos/dairy-mat-2.jpg" x="44" y="576" width="1112" height="460" preserveAspectRatio="xMidYMid meet"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">RaithaBandu dairy rubber mat — actual product photos</title>
+  <desc id="desc">Two actual product photographs showing the diamond-pattern rubber mat and its interlocking edge.</desc>
+  <defs>
+    <clipPath id="left"><rect x="0" y="0" width="585" height="720" rx="24"/></clipPath>
+    <clipPath id="right"><rect x="615" y="0" width="585" height="720" rx="24"/></clipPath>
+  </defs>
+  <rect width="1200" height="720" fill="#f7f9f7"/>
+  <rect x="0" y="0" width="585" height="720" rx="24" fill="#fff"/>
+  <rect x="615" y="0" width="585" height="720" rx="24" fill="#fff"/>
+  <image x="0" y="0" width="585" height="720" preserveAspectRatio="xMidYMid slice" clip-path="url(#left)" href="photos/dairy-mat-1.jpg" xlink:href="photos/dairy-mat-1.jpg"/>
+  <image x="615" y="0" width="585" height="720" preserveAspectRatio="xMidYMid slice" clip-path="url(#right)" href="photos/dairy-mat-2.jpg" xlink:href="photos/dairy-mat-2.jpg"/>
+  <rect x="18" y="650" width="170" height="48" rx="24" fill="#173d24" opacity="0.92"/>
+  <text x="103" y="681" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#fff">Actual Photo 1</text>
+  <rect x="633" y="650" width="170" height="48" rx="24" fill="#173d24" opacity="0.92"/>
+  <text x="718" y="681" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#fff">Actual Photo 2</text>
 </svg>
